@@ -1,0 +1,22 @@
+.cards-container {
+  -webkit-columns: 750px;
+  -moz-columns: 750px;
+  columns: 750px;
+  -webkit-column-gap: 2em;
+  -moz-column-gap: 2em;
+  column-gap: 2em;
+}
+
+.card {
+  background: white;
+  padding: 1em;
+  margin-bottom: 1.3em;
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+.card-title {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 10%;
+}
