@@ -1,7 +1,7 @@
 .cards-container {
-  -webkit-columns: 750px;
-  -moz-columns: 750px;
-  columns: 750px;
+  -webkit-columns: 400px;
+  -moz-columns: 400px;
+  columns: 400px;
   -webkit-column-gap: 2em;
   -moz-column-gap: 2em;
   column-gap: 2em;
@@ -15,6 +15,7 @@
   page-break-inside: avoid;
   break-inside: avoid;
 }
+
 
 .card-title {
   background-color: rgba(0, 0, 0, 0.3);
