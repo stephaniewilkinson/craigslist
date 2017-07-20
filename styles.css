@@ -1,22 +1,24 @@
 html {
-  background-color: #f1f1f1;
+  background-color: lightgray;
 }
 
 .cards-container {
   -webkit-columns: 320px;
   -moz-columns: 320px;
   columns: 320px;
-  -webkit-column-gap: 2em;
-  -moz-column-gap: 2em;
-  column-gap: 2em;
+  -webkit-column-gap: 5em;
+  -moz-column-gap: 5em;
+  column-gap: 5em;
 }
 
 .card {
-  padding: 1em;
-  margin-bottom: 1.3em;
+  /*padding: 1em;*/
+  /*margin-bottom: 1.3em;*/
   -webkit-column-break-inside: avoid;
   page-break-inside: avoid;
   break-inside: avoid;
+  /*border-width: 2px;*/
+  /*border-color: black;*/
 }
 
 
